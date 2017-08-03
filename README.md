@@ -21,7 +21,7 @@ The solution revolves around a simple application that displays random quotes wh
 * FortunesServices - Rest based implementation using OWIN with WebAPI. Intended to be run on Windows stack with HWC
 * FortunesUI - Modern .NET core version running on linux stack. Calls backend services directly from javascript.
 
-![Architecture](docs/project_architecture.png "Architecture")
+![Architecture](Docs/project_architecture.png "Architecture")
 
 
 # How to build
