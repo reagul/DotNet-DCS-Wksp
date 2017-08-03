@@ -1,0 +1,11 @@
+---
+applications:
+- name: FortunesLegacyUI
+  random-route: true
+  memory: 512M
+  stack: windows2012R2
+  health-check-type: http
+  buildpack: https://github.com/cloudfoundry-incubator/hwc-buildpack/releases/download/v2.3.8/hwc-buildpack-v2.3.8.zip
+  services:
+    - eureka
+    - config-server
