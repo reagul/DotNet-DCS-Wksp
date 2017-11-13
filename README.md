@@ -24,17 +24,13 @@ The solution revolves around a simple application that displays random quotes wh
 ![Architecture](Docs/project_architecture.png "Architecture")
 
 
-# How to build
-Run `\build\build.ps1`. The output will be dropped into `\publish\`
-### Prerequisites
-* Visual Studio 2017 with .NET core support
-
 # How to deploy
 
 * *Ensure that you have CF CLI as part of path, logged in, and targeting space/org where you want to deploy*
 
 1. Run build\create-services.bat. Wait for services to finish being created (`cf services`)
 2. Do `cf push` inside `\publish\` folder
+3. You will need a Config server forked and set up from here. https://github.com/reagul/fortunesconfig
 
 
 
